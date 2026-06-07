@@ -1,5 +1,7 @@
 # Desarrollo TP N°8 - Ejercicio 3.1: Calculadora Simple utilizando Tkinter
 
+---
+
 ## 📂 Estructura del Proyecto
 
 Para garantizar la escalabilidad y mantener el código ordenado, se aplicó la siguiente jerarquía de directorios, separando la lógica de negocio de la interfaz gráfica:
@@ -18,6 +20,7 @@ Para garantizar la escalabilidad y mantener el código ordenado, se aplicó la s
     └── imagen.png           -> Recursos estáticos (fondo).
 
 ```
+---
 
 ## 💡 Enfoque técnico: Ejercicio 3.1 (Calculadora)
 
@@ -35,6 +38,8 @@ Se optó por una arquitectura de separación de responsabilidades (Separation of
 * **Gestión de Errores (Defensive Programming):** El bloque lógico incluye manejo de excepciones nativo (`ZeroDivisionError`, `SyntaxError`) para capturar y neutralizar intentos de dividir por cero o procesar expresiones mal formadas (ej: `5++5`). Esto delega a la vista mensajes de error claros ("Error: Div por cero") sin comprometer la estabilidad del proceso principal.
 
 * **Tolerancia a fallos en UI:** La carga de la imagen de fondo se envuelve en un bloque `try...except`. Si el archivo `imagen.png` es eliminado, movido o está corrupto, la UI implementa un fallback dinámico a un fondo de color sólido, garantizando la disponibilidad ininterrumpida de la aplicación.
+
+---
 
 ## 🖥️ Simulación de Ejecución (Capa Lógica)
 

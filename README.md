@@ -1,6 +1,7 @@
 # 🐍 Algoritmos y Estructuras de Datos II - Trabajo Práctico N°8 - Unidad N°2 (Cuarta Parte)
 
-**Instituto Superior de Formación Técnica Nº 151** **Carrera:** Tecnicatura Superior en Análisis de Sistemas  
+**Instituto Superior de Formación Técnica Nº 151**
+**Carrera:** Tecnicatura Superior en Análisis de Sistemas  
 **Materia:** Algoritmos y Estructuras de Datos II  
 **Tema:** Python꞉ GUI Frameworks, Tkinter, SQLite  
 **Alumno:** David Hernán Bravo  
